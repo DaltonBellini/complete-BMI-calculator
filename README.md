@@ -1,4 +1,4 @@
-https://daltonbellini.github.io/complete-BMI-calculator/
+Link para verificar seu IMC: https://daltonbellini.github.io/complete-BMI-calculator/
 
 <h1>Calculadora de IMC</h1>
 <p> Fala galera tudo certo ? <br>
