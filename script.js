@@ -1,6 +1,6 @@
-    import {Modal} from '/modal.js'
-    import { AlertError } from '/alert-error.js'
-    import { calculateIMC, notANumber} from '/utils.js'
+    import {Modal} from './modal.js'
+    import { AlertError } from './alert-error.js'
+    import { calculateIMC, notANumber} from './utils.js'
 
     const form = document.querySelector('form')
     const inputWeight = document.querySelector('#weight')
