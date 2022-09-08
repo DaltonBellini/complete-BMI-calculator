@@ -6,8 +6,6 @@ https://daltonbellini.github.io/complete-BMI-calculator/
   
   ![image](https://user-images.githubusercontent.com/90783550/189234504-6a472ce3-a0fe-4126-bac4-49696b1b0bbe.png)
   
-  segue novamente o link para verificação do seu IMC:
-![image](https://user-images.githubusercontent.com/90783550/189234592-01cd3942-a96b-4f54-ba1b-6f4632d5148b.png)
 
 
 </p>
