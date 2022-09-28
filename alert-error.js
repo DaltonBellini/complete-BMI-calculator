@@ -1,11 +1,10 @@
 export const AlertError = { 
-    element: document.querySelector('.alert-error'),
+    alert: document.querySelector('.alert-error'),
 
     open(){ 
-        AlertError.element.classList.add('open')
+        AlertError.alert.classList.add('open')
     },
     close(){ 
-        AlertError.element.classList.remove('open')
+        AlertError.alert.classList.remove('open')
     }
-
 }

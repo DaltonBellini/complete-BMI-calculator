@@ -1,7 +1,7 @@
 export const Modal = { 
     wrapper: document.querySelector('.modal-wrapper'),
-    message: document.querySelector('.modal .title'),
-    btnClose: document.querySelector('.modal .close'),
+    message: document.querySelector('.modal-wrapper .title'),
+    btnClose: document.querySelector('.close'),
 
     open(){ 
         Modal.wrapper.classList.add('open')
@@ -11,15 +11,18 @@ export const Modal = {
     }
 }
 
+    Modal.btnClose.addEventListener('click', handleClose)
 
-
-Modal.btnClose.onclick= ()=>{ 
-    Modal.close()
+    function handleClose(){ 
+        Modal.close()
 }
 
-window.addEventListener('keydown' ,handleKeydown)
-function handleKeydown(event){
-if(event.key === 'Escape'){
-    Modal.close()
-}
-}
+    window.addEventListener('keydown', handleKeydow)
+
+    function handleKeydow(event){ 
+        if(event.key === 'Escape'){ 
+            Modal.close()
+        }
+    }
+
+    
